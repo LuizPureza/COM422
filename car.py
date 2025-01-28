@@ -1,4 +1,4 @@
-class cars:
+class car:
     def __init__(self, make, model, year, color, maxSpeed, fuelLevel=100):
 
         self.make = make
@@ -13,7 +13,7 @@ class cars:
 
     def accelerate(self, amount):
 
-        if self.fuelLevel > 0:
+        if self.fuelLevel > amount:
             self.currentSpeed += amount
             self.currentSpeed = min(self.currentSpeed, self.maxSpeed)
             self.fuelLevel -= amount
