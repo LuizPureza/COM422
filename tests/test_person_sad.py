@@ -5,7 +5,7 @@ def test_run_return_false_hunger():
     p1 = Person("abc", 150, 50, 40)
     assert p1.run(26) == False
 
-def test_run_energy_false_hunger():
+def test_run_energy_false_energy():
     p1 = Person("abc", 150, 50, 40)
     assert p1.run(20) == False
 
