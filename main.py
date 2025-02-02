@@ -1,7 +1,7 @@
-from car import cars
+from car import car
 
-car1 = cars("BMW", "Series 3", 2022, "White", 180)
-car2 = cars("Audi", "A4", 2021, "Black", 200)
+car1 = car("BMW", "Series 3", 2022, "White", 180)
+car2 = car("Audi", "A4", 2021, "Black", 200)
 
 
 car1.accelerate(100)

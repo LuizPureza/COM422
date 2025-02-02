@@ -1,8 +1,8 @@
 class Person:
     def __init__(self, name, weight, hunger, energy):
-        if(hunger < 0 or hunger > 100):
+        if hunger < 0 or hunger > 100:
             raise Exception("Hunger must be between 0 and 100")
-        elif (energy < 0 or energy > 100):
+        elif energy < 0 or energy > 100:
             raise Exception("Energy must be between 0 and 100")
 
         self.name = name
